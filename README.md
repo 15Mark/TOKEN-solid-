@@ -50,6 +50,7 @@ pragma solidity 0.8.18;
         }
 }
 ```
+### How to Use
 - Compile the contract: Use the Solidity compiler or IDE to compile the MyToken.sol file. This step will generate the bytecode that can be deployed to the Ethereum blockchain. Ensure that there are no compilation errors.
 - Deploy the contract: Depending on the development network you selected, you will need to deploy the compiled contract. This can be done using frameworks like Truffle or Hardhat or through Remix. You'll need to specify     the constructor arguments and pay the necessary gas fees for the deployment transaction.
 - Interact with the contract: Once the contract is deployed, you can interact with it using various methods. This includes calling the contract's functions, reading its state variables, and sending transactions to modify     the contract's state. You can interact with the contract using tools like Remix, web3.js, or ethers.js.
