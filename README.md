@@ -22,10 +22,9 @@ By deploying and interacting with this contract on the Ethereum blockchain, you 
 ## Getting Started
 
 ### Executing program
-
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., [ANY NAME].sol). Copy and paste the following code into the file:
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
@@ -51,14 +50,10 @@ pragma solidity 0.8.18;
         }
 }
 ```
-
+ - Deploy the contract: Depending on the development network you selected, you will need to deploy the compiled contract. This can be done using frameworks like Truffle or Hardhat or through Remix. You'll need to specify     the constructor arguments and pay the necessary gas fees for the deployment transaction.
+- Interact with the contract: Once the contract is deployed, you can interact with it using various methods. This includes calling the contract's functions, reading its state variables, and sending transactions to modify     the contract's state. You can interact with the contract using tools like Remix, web3.js, or ethers.js.
 ## Authors
 
 Mark Angelo Evangelista
 
 https://www.facebook.com/markangelo.evangelista.507
-
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
