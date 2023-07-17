@@ -56,6 +56,4 @@ pragma solidity 0.8.18;
 - Interact with the contract: Once the contract is deployed, you can interact with it using various methods. This includes calling the contract's functions, reading its state variables, and sending transactions to modify     the contract's state. You can interact with the contract using tools like Remix, web3.js, or ethers.js.
 ## Authors
 
-Mark Angelo Evangelista
-
-https://www.facebook.com/markangelo.evangelista.507
+@Mark Angelo Evangelista
