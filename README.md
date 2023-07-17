@@ -29,31 +29,30 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
-    contract MyToken {
-        
+    contract GAMMA {
         string public name = "GAMMA";
-        string public abbrv = "GAMM";
-        uint totalSupply = 0;
+        string public abbrv = "GAM";
+        uint TotalSupply = 0;
 
         mapping(address => uint) public balances;
 
-        function mint(address _address, uint _values) public{
-        totalSupply += _values;
+    function mint(address _address, uint _values) public{
+        TotalSupply += _values;
         balances[_address] += _values;
         }
-        
-        function burn(address _address, uint _values)public{
-            if (balances[_address] >= _values){
-            totalSupply -= _values;
-            balances[_address] -= _values;
-            }
-        }
-}
+
+    function burn(address _address, uint _values) public{
+        if (balances[_address] >= _values)
+        TotalSupply -= _values;
+        balances[_address] -= _values;
+    }
+}   
 ```
 ### How to Use
-- Compile the contract: Use the Solidity compiler or IDE to compile the MyToken.sol file. This step will generate the bytecode that can be deployed to the Ethereum blockchain. Ensure that there are no compilation errors.
-- Deploy the contract: Depending on the development network you selected, you will need to deploy the compiled contract. This can be done using frameworks like Truffle or Hardhat or through Remix. You'll need to specify     the constructor arguments and pay the necessary gas fees for the deployment transaction.
-- Interact with the contract: Once the contract is deployed, you can interact with it using various methods. This includes calling the contract's functions, reading its state variables, and sending transactions to modify     the contract's state. You can interact with the contract using tools like Remix, web3.js, or ethers.js.
+- Compile the contract: First is tick the box of Auto Compiler then Click the Complie Button.
+- Deploy the contract: below the Contract press Deploy then check for "Deployed Contracts" below the "Transactions Recorded" then press Greater Than Icon( > )
+- Interact with the contract: Copy and Paste the Account(Below the Environment) to the Address on mint(add) or burn button(subtract) values of your balances after doing that you can check it out by pressing the balances button.
+P.S All of this function is located to the left side of the screen
 ## Authors
 
 @Mark Angelo Evangelista
