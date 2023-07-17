@@ -1,4 +1,4 @@
-# Project Title
+# GAMMA TOKENS
 
 Simple overview of use/purpose.
 
