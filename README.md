@@ -1,6 +1,6 @@
 # GAMMA TOKENS
 
-Simple overview of use/purpose.
+This Solidity program used for
 
 ## Description
 
@@ -21,19 +21,10 @@ An in-depth paragraph about your project and overview of use.
 code blocks for commands
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Mark Angelo Evangelista
+https://www.facebook.com/markangelo.evangelista.507
 
 
 ## License
