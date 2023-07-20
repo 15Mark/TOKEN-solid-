@@ -48,7 +48,7 @@ pragma solidity 0.8.18;
     }
 }   
 ```
-### How to Use
+### How to Us
 - Compile the contract: First is tick the box of Auto Compiler then Click the Complie Button.
 - Deploy the contract: below the Contract press Deploy then check for "Deployed Contracts" below the "Transactions Recorded" then press Greater Than Icon( > )
 - Interact with the contract: Copy and Paste the Account(Below the Environment) to the Address on mint(add) or burn button(subtract) values of your balances after doing that you can check it out by pressing the balances button.
